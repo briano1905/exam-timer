@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exam timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>exam timer</h1>
+
+    <div id="options">
+      <span>reading time: </span>
+      <span id="reading-time" class="numeric-input">15</span>
+      <span>writing time:</span>
+      <span id="writing-time" class="numeric-input">60</span>
+      <button id="start-button">start</button>
+    </div>
+
+    <div id="time">
+      <h1>0:00</h1>
+      <h3>scroll up/down on time box to increase/decrease time</h3>
+    </div>
+
+    <audio id="ding" src="ding.mp3"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>
